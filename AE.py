@@ -41,4 +41,6 @@ import boto3
 
 
 def Testaccount():
-    return("This is just for testing if the scans can identify BP confidential information")
+    a={"userid": "testuser@bp.com","password": "this_is_just_for_test"}
+    return(a+"This is just for testing if the scans can identify BP confidential information")
+    
