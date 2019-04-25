@@ -42,5 +42,7 @@ import boto3
 
 def Testaccount():
     a={"userid": "testuser@bp.com","password": "this_is_just_for_test"}
+    key={"-----BEGIN RSA PRIVATE KEY-----": "Testing already present Regex in the package","-----END RSA PRIVATE KEY-----": "End of Test"}
     return(a+"This is just for testing if the scans can identify BP confidential information")
+
     
